@@ -3,10 +3,12 @@
     <version>37.0</version>
     <types>
         <members>AcC123</members>
+        <members>AcCnTest2</members>
         <members>AcCnTest3</members>
         <name>ApexClass</name>
     </types>
     <types>
+        <members>AddNew__c</members>
         <members>BitBucket__c</members>
         <name>CustomObject</name>
     </types>

@@ -5,8 +5,6 @@ public Account createAccount(String name)  //method to create account
 Account acc112 = new Account();
 acc112.Name = name;
 return acc112;
-//User 
-//Dev 2
-//Dev 2
+//dev 2 dry run
 }
 }

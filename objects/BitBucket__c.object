@@ -90,7 +90,7 @@
         <fullName>TestDeactivate</fullName>
         <active>true</active>
         <description>Dev 1 dry run</description>
-        <errorConditionFormula>LastModifiedBy.CompanyName  &amp;amp;lt;&amp;amp;gt; &amp;amp;quot;Pavan&amp;amp;quot;</errorConditionFormula>
+        <errorConditionFormula>LastModifiedBy.CompanyName  &amp;amp;amp;lt;&amp;amp;amp;gt; &amp;amp;amp;quot;Pavan&amp;amp;amp;quot;</errorConditionFormula>
         <errorMessage>Test</errorMessage>
     </validationRules>
 </CustomObject>

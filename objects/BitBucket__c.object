@@ -47,6 +47,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Dev 1 Commit 2 retest2</description>
     <description>Dev 1 Commit 2 retest</description>
     <description>Dev 2 Commit 2 retest</description>
     <enableActivities>false</enableActivities>
@@ -90,7 +91,9 @@
         <fullName>TestDeactivate</fullName>
         <active>true</active>
         <description>Dev 1 dry run</description>
-        <errorConditionFormula>LastModifiedBy.CompanyName  &amp;amp;amp;amp;lt;&amp;amp;amp;amp;gt; &amp;amp;amp;amp;quot;Pavan&amp;amp;amp;amp;quot;</errorConditionFormula>
+        <errorConditionFormula>LastModifiedBy.CompanyName  &amp;amp;amp;amp;amp;lt;&amp;amp;amp;amp;amp;gt; &amp;amp;amp;amp;amp;quot;Pavan&amp;amp;amp;amp;amp;quot;</errorConditionFormula>
+        <description>Dev 1 dry run2</description>
+        <errorConditionFormula>LastModifiedBy.CompanyName  &amp;lt;&amp;gt; &amp;quot;Pavan&amp;quot;</errorConditionFormula>
         <errorMessage>Test</errorMessage>
     </validationRules>
 </CustomObject>

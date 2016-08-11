@@ -47,7 +47,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Dev 2 Commit 2 retest</description>
+    <description>Dev 2 Commit 2 retest3</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -87,7 +87,7 @@
     <validationRules>
         <fullName>TestDeactivate</fullName>
         <active>true</active>
-        <description>dev 2 dry run</description>
+        <description>dev 2 dry run3</description>
         <errorConditionFormula>LastModifiedBy.CompanyName  &lt;&gt; &quot;Pavan&quot;</errorConditionFormula>
         <errorMessage>Test</errorMessage>
     </validationRules>

@@ -60,7 +60,7 @@
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>AutorabitExtId__c</fullName>
-        <description>External Id created by AutoRABIT</description>
+        <description>External Id created by AutoRABIT3</description>
         <externalId>true</externalId>
         <inlineHelpText>Test 123</inlineHelpText>
         <label>AutorabitExtId__c</label>

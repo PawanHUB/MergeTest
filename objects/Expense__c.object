@@ -9,18 +9,24 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Edit</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>SaveEdit</actionName>
+        <actionName>Follow</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Tab</actionName>
-        <content>IdeasHome</content>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Visualforce</type>
+        <actionName>List</actionName>
+        <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>New</actionName>
@@ -55,12 +61,12 @@
         <fullName>Field_Set_for_Apex</fullName>
         <description>To be called in Apex Classes</description>
         <displayedFields>
-            <field>Amount__c</field>
+            <field>Name</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
         </displayedFields>
         <displayedFields>
-            <field>CreatedDate</field>
+            <field>Amount__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
         </displayedFields>
@@ -72,6 +78,15 @@
         <label>Field Set for Apex</label>
     </fieldSets>
     <fields>
+        <fullName>Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>CasesafeID__c</fullName>
@@ -98,11 +113,15 @@
         <fullName>Date__c</fullName>
         <externalId>false</externalId>
         <label>Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
         <type>DateTime</type>
     </fields>
     <fields>
         <fullName>Expense_Number__c</fullName>
         <displayFormat>Ex-{000000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Expense Number</label>
         <trackTrending>false</trackTrending>
         <type>AutoNumber</type>
     </fields>
@@ -117,6 +136,8 @@
     <fields>
         <fullName>Reimbursed__c</fullName>
         <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Reimbursed?</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
